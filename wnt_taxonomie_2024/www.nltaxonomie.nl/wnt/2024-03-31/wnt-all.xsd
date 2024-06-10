@@ -21,11 +21,11 @@
   </xsd:annotation>
   <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
-  <xsd:element abstract="true" id="wnt_AccountabilityModelAdditionalElementsTitle" name="AccountabilityModelAdditionalElementsTitle" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <xsd:element abstract="true" id="wnt_Article2_1Title" name="Article2_1Title" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <xsd:element abstract="true" id="wnt_Article2_6Title" name="Article2_6Title" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <xsd:element abstract="true" id="wnt_Article2_10Title" name="Article2_10Title" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <xsd:element abstract="true" id="wnt_Article5_2Title" name="Article5_2Title" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <xsd:element abstract="true" id="wnt_ImplementationRegulationWNTTitle" name="ImplementationRegulationWNTTitle" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <xsd:element abstract="true" id="wnt_StandardsForRemunerationActTitle" name="StandardsForRemunerationActTitle" nillable="false" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_AccountabilityModelAdditionalElementsTitle" name="AccountabilityModelAdditionalElementsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article2_1Title" name="Article2_1Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article2_6Title" name="Article2_6Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article2_10Title" name="Article2_10Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article5_2Title" name="Article5_2Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_ImplementationRegulationWNTTitle" name="ImplementationRegulationWNTTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_StandardsForRemunerationActTitle" name="StandardsForRemunerationActTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
 </xsd:schema>
