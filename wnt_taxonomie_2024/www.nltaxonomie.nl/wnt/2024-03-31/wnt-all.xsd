@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<xsd:schema xmlns:wnt-all="https://www.nltaxonomie.nl/wnt/2024-03-31/wnt_all" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.nltaxonomie.nl/wnt/2024-03-31/wnt_all">
+  <xsd:annotation>
+    <xsd:appinfo>
+	  <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-lab-fr.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-lab-de.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	  <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-gen-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-gen-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	  <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-gen-lab-fr.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	  <link:linkbaseRef xlink:type="simple" xlink:href="wnt-all-gen-lab-de.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="wnt-all-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="wnt_StandardsForRemunerationAct" roleURI="urn:wnt:linkrole:standards-for-remuneration-act">
+        <link:definition>Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element abstract="true" id="wnt_AccountabilityModelAdditionalElementsTitle" name="AccountabilityModelAdditionalElementsTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article2_1Title" name="Article2_1Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article2_6Title" name="Article2_6Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article2_10Title" name="Article2_10Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_Article5_2Title" name="Article5_2Title" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_ImplementationRegulationWNTTitle" name="ImplementationRegulationWNTTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="wnt_StandardsForRemunerationActTitle" name="StandardsForRemunerationActTitle" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+</xsd:schema>

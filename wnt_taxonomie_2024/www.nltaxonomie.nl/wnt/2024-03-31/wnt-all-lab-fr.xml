@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+    <link:label id="wnt_Article5_2Title_label_fr" xlink:label="wnt_Article5_2Title_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Article 1.7</link:label>
+    <link:label id="wnt_Article2_1Title_label_fr" xlink:label="wnt_Article2_1Title_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Article 2.1</link:label>
+    <link:label id="wnt_Article2_6Title_label_fr" xlink:label="wnt_Article2_6Title_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Article 2.6</link:label>
+    <link:label id="wnt_Article2_10Title_label_fr" xlink:label="wnt_Article2_10Title_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Article 2.10</link:label>
+    <link:label id="wnt_StandardsForRemunerationActTitle_label_fr" xlink:label="wnt_StandardsForRemunerationActTitle_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Loi sur la normalisation de la rémunération des hauts fonctionnaires des secteurs public et semi-public</link:label>
+    <link:label id="wnt_AccountabilityModelAdditionalElementsTitle_label_fr" xlink:label="wnt_AccountabilityModelAdditionalElementsTitle_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Modèle de responsabilité WNT - Éléments supplémentaires</link:label>
+    <link:label id="wnt_ImplementationRegulationWNTTitle_label_fr" xlink:label="wnt_ImplementationRegulationWNTTitle_label_fr" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="fr">Règlement d'application WNT</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_AccountabilityModelAdditionalElementsTitle_loc" xlink:to="wnt_AccountabilityModelAdditionalElementsTitle_label_fr" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_Article2_1Title_loc" xlink:to="wnt_Article2_1Title_label_fr" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_Article2_6Title_loc" xlink:to="wnt_Article2_6Title_label_fr" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_Article2_10Title_loc" xlink:to="wnt_Article2_10Title_label_fr" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_Article5_2Title_loc" xlink:to="wnt_Article5_2Title_label_fr" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_ImplementationRegulationWNTTitle_loc" xlink:to="wnt_ImplementationRegulationWNTTitle_label_fr" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="wnt_StandardsForRemunerationActTitle_loc" xlink:to="wnt_StandardsForRemunerationActTitle_label_fr" xlink:type="arc"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_AccountabilityModelAdditionalElementsTitle" xlink:label="wnt_AccountabilityModelAdditionalElementsTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_Article2_1Title" xlink:label="wnt_Article2_1Title_loc" xlink:type="locator"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_Article2_6Title" xlink:label="wnt_Article2_6Title_loc" xlink:type="locator"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_Article2_10Title" xlink:label="wnt_Article2_10Title_loc" xlink:type="locator"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_Article5_2Title" xlink:label="wnt_Article5_2Title_loc" xlink:type="locator"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_ImplementationRegulationWNTTitle" xlink:label="wnt_ImplementationRegulationWNTTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="wnt-all.xsd#wnt_StandardsForRemunerationActTitle" xlink:label="wnt_StandardsForRemunerationActTitle_loc" xlink:type="locator"/>
+  </link:labelLink>
+</link:linkbase>
