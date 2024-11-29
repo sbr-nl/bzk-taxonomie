@@ -33,22 +33,22 @@
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
       <link:roleType id="wnt_RemunerationOfExecutiveSeniorOfficialsConsideredFourYears" roleURI="urn:wnt:linkrole:remuneration-of-executive-senior-officials-considered-four-years">
-        <link:definition>1e - Topfunctionaris met een totale bezoldiging van meer dan € 1.900</link:definition>
+        <link:definition>1e - Topfunctionaris met een totale bezoldiging van meer dan € 2,100</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
       <link:roleType id="wnt_SeniorOfficialsRemuneration1700OrMoreAccumulated" roleURI="urn:wnt:linkrole:senior-officials-remuneration1700or-more-accumulated">
-        <link:definition>1f - Bezoldiging van topfunctionaris met een totale bezoldiging van meer dan € 1.900 waarop de anticumulatie bepaling van toepassing is - Gecumuleerd</link:definition>
+        <link:definition>1f - Bezoldiging van Topfunctionaris met een totale bezoldiging van meer dan € 2,100 waarop de anticumulatie bepaling van toepassing is - Gecumuleerd</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
       <link:roleType id="wnt_SeniorOfficialsRemuneration1700OrMoreInstitution" roleURI="urn:wnt:linkrole:senior-officials-remuneration1700or-more-institution">
-        <link:definition>1f - Bezoldiging van topfunctionaris met een totale bezoldiging van meer dan € 1.900 waarop de anticumulatie bepaling van toepassing is - WNT instelling</link:definition>
+        <link:definition>1f - Bezoldiging van Topfunctionaris met een totale bezoldiging van meer dan € 2,100 waarop de anticumulatie bepaling van toepassing is - WNT instelling</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
       <link:roleType id="wnt_SeniorOfficialRemuneration1700OrLessAntiCumulationApproach" roleURI="urn:wnt:linkrole:senior-official-remuneration1700or-less-anti-cumulation-approach">
-        <link:definition>1g - Topfunctionaris met een totale bezoldiging van € 1.900 of minder waarop de anticumulatiebepaling van toepassing is</link:definition>
+        <link:definition>1g - Topfunctionaris met een totale bezoldiging van € 2,100 of minder waarop de anticumulatiebepaling van toepassing is</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
